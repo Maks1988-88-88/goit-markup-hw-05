@@ -51,7 +51,7 @@
             <h1 class="order-name">
                 Эффективные решения для вашего бизнеса
             </h1>
-            <button class="order-btn">Заказать услугу</button>
+            <button class="order-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
     </section>
     <section class="section">
@@ -358,10 +358,13 @@
     </div>
 </footer>
 
-<div class="backdrop">
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button type="button" class="close-btn">X</button>
+        <button type="button" class="close-btn" data-modal-close><img src="./images/sprite/close-black.svg" alt="close-black"></button>
     </div>
 </div>
+
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
