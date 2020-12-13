@@ -683,10 +683,12 @@ img {
     left: 0;
     height: 100%;
     transform: translateY(100%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
+
+.portfolio-card-link {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 .portfolio-card-link:hover .portfolio-overlay,.portfolio-card-link:focus .portfolio-overlay {
     transform: translateY(0%);
